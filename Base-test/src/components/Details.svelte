@@ -3,15 +3,12 @@
 </script>
 
 <!-- Details person -->
-<section>
-<dt>Name</dt>
-<dd>Joe Bloggs</dd>
-<dt>Email</dt>
-<dd>joebloggs@gmail.com</dd>
-</section>
+<dl>
+    <dt>Name</dt>
+    <dd>Joe Bloggs</dd>
+    <dt>Email</dt>
+    <dd>joebloggs@gmail.com</dd>
+</dl>
 <style>
-    section{
-        display: flex;
-        flex-direction: column;
-    }
+
 </style>
