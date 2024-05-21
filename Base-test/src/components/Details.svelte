@@ -3,7 +3,7 @@
         firstname: "John",
         lastname: "Doe",
         age: "34",
-        location:"Dunedin police morge",
+        location:" morge",
         occupation:"dead"
     }
 </script>
@@ -23,5 +23,6 @@
 dl{
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 </style>

@@ -19,6 +19,7 @@ import Details from "./Details.svelte";
 section{
     display: flex;
     border: 2px solid black;
+    margin: 1em;
 }
 </style>
 
