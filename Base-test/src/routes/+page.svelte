@@ -18,6 +18,8 @@
 <style>
     section{
         display: flex;
+        margin-left: 7em;
+        margin-top:7em; 
     }
     
 </style>
