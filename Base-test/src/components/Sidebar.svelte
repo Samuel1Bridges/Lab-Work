@@ -19,8 +19,13 @@
         background-color: gray;
     }
     li{
-        margin: 0.4em;
-        border: 1px solid black;
+        margin: 1em;
         text-align: center;
+        padding: 1em;
+        border: 1px solid black;
+    }
+    a{
+        text-decoration: solid;
+        color: black;
     }
 </style>
