@@ -1,17 +1,21 @@
 <script>
-    import Card from "../components/Card.svelte";
+    import Cards from "../components/Card.svelte";
+    export let data;
+    const people = data.people;
+    console.log(people);
 
 </script>
-<section>
-
-</section>
+<main>
+    {#each people as person}
+        <Cards {person} />
+    {/each}
+</main>
 <style>
-    section{
-        border: 1px solid black;
-        background-color: red;
-        width: 65.8em;
-        height: 20em;
-
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin: 3em;
     }
     
-</style>
+</style> 

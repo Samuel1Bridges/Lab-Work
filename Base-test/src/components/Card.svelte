@@ -3,13 +3,14 @@
 <script>
 import Picture from "./Picture.svelte";
 import Details from "./Details.svelte";
+export let person;
 </script>
 
 
 <!-- Html -->
 <section>
-    <Picture />
-    <Details />
+    <Picture {person}/>
+    <Details {person} />
 </section>
 
 
@@ -19,7 +20,6 @@ import Details from "./Details.svelte";
 section{
     display: flex;
     border: 2px solid black;
-    margin: 1em;
 }
 </style>
 

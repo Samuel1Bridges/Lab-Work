@@ -18,11 +18,14 @@
         <slot />
     </main>
     <footer>
-    <Footer />
+        <Footer />
     </footer>
     </div>     
 
 <style>
+    :global(body){
+        margin: 0;
+    }
     .container{
         display: grid;
         grid-template: auto 1fr auto / auto 1fr ;
